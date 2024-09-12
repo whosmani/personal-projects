@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+float myArray[6] = {4, 2, 7, 4, 5, 4};
+float target = myArray[0];
+  
+if (target == myArray[0]){
+  target = myArray[0];
+  cout << "target found" << myArray[0] << endl;
+}
