@@ -1,12 +1,20 @@
-// where you can view it working :) https://replit.com/@ecampbell06/DeafeningDefenselessDaemon
-
+// a game where you put in a number & it guesses if its higher or less than 50 view it here! https://replit.com/@ecampbell06/c-yay#main.cpp
 #include <iostream>
 using namespace std;
+
 int main() {
-float myArray[6] = {4, 2, 7, 4, 5, 4};
-float target = myArray[0];
-  
-if (target == myArray[0]){
-  target = myArray[0];
-  cout << "target found" << myArray[0] << endl;
+  cout << "Hello World!\n";
+
+  int myNum = 190;  
+  cout << "Enter a number. \n";
+  cin >> myNum;
+  if(cin.fail()){
+  cout << "you did not enter a number. \n";
+  }
+else if (myNum < 50){
+ cout << "My number is less than 50";
+}
+else if(myNum == 50){
+  cout << "My number is equal to 50"; 
+}
 }
