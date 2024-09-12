@@ -1,0 +1,50 @@
+// sadly, this was made in Repl.it and it delted majority of my code so I cannot show an example
+<html>
+  <nav>
+    <div class="myLogo" id="#">
+      <img style="width: 100px;" src="logo.jpg" alt="logo" />
+    </div>
+    <ul >
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <div class="sideBar">
+        <li>
+          <a href="#">home</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+          <li>
+            <a href="#">interests</a>
+          </li>
+        <li>
+          <a href="#">socials</a>
+        </li>
+        <ul class="dropdown">
+          <li><a href="/">home</a><li>
+        <li><a href="/">about</a><li>
+          <li><a href="/">interests</a><li>
+            <li><a href="/">socials</a><li>
+    </ul>
+      </div>
+    </ul>
+  </nav>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+ <main>
+    <p id="intro-text">
+     Hi! My name is Emani Campbell & I am a current student at North Carolina A & T. I currently reside in Queens, New York and I love mac n cheese! Here is my portfolio and I hope you enjoy :-D
+    </p>
+  <script src="script.js"></script>
+
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
